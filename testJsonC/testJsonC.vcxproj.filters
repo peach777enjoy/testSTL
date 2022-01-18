@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="jsonc">
+      <UniqueIdentifier>{be3b0f86-6076-44c0-927f-6003f81a775e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testJsonC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msjexhnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\arraylist.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\debug.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_c_version.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_object.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_object_iterator.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_pointer.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_tokener.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_util.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\json_visit.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\libjson.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\linkhash.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\printbuf.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\random_seed.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonc\strerror_override.c">
+      <Filter>jsonc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="msjexhnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\arraylist.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\debug.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_c_version.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_inttypes.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_object.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_object_iterator.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_object_private.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_pointer.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_tokener.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_types.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_util.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_visit.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\linkhash.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\math_compat.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\printbuf.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\random_seed.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\snprintf_compat.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\strdup_compat.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\strerror_override.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\strerror_override_private.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\vasprintf_compat.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\config.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonc\json_config.h">
+      <Filter>jsonc</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
